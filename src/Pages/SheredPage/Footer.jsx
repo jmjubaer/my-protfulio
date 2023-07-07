@@ -21,8 +21,7 @@ const Footer = () => {
                         <Logo></Logo>
                     </div>
                     <p className="my-5">
-                        Edwin Diaz is a software and web technologies engineer,
-                        a life coach trainer who is also a serial .
+                    I am Md jubaer islam from Khulna. I am also a React developer. I also have basic knowledge in another MERN technology is MongoDB, Express js, and node js.
                     </p>
                     <ul className="flex flex-wrap gap-10 mt-5">
                         <li className="p-3 border rounded-full ">
