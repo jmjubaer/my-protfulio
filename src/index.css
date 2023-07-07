@@ -1,0 +1,71 @@
+.jm_container{
+  width: 96%;
+  max-width: 1240px;
+  margin: auto;
+}
+.logo_font{
+  font-family: 'Rubik Moonrocks', cursive;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden
+}
+
+/* body{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+min-height: 100vh;
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.jm_nav{
+  @apply block lg:flex justify-between lg:col-span-3 items-center absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-screen lg:h-auto duration-500 bg-[#fff] lg:bg-[transparent] lg:p-0 z-50
+}
+.gradient_text{
+  background: linear-gradient(123deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+  background-clip:text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.freme{
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.box_shadow{
+  box-shadow: 50px 50px 50px 50px #1C99FE;
+}
+.heading_font{
+  font-family: 'Belanosima', sans-serif;
+}
+.jm_special_font{
+  font-family: 'Noto Serif', serif;
+}
+.dics_effects{
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 1),
+  inset -4px -4px 10px rgba(255, 255, 255, 1),
+  4px 4px 10px rgba(0, 0, 0,0.1),
+  inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.border_gradient{
+  border-image: linear-gradient(to right, red, blue) 1;
+}
+.bg_gradient{
+  background: linear-gradient(-30deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+}
+.jm_child{
+  transition: all 5s ease-in-out;
+}
+.jm_parent:hover .jm_child{
+  transform: translateY(calc(-100% + 312px));
+}
+.jm_parent .overly{
+  transition:all linear 0.5s;
+}
+.jm_parent:hover .overly{
+  bottom: 0;
+  transition:all linear 0.5s;
+}
